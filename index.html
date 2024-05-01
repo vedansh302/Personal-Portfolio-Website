@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9d311bcb68.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+                <nav>
+                    <img src="Images/logo5.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            <div class="header-text">
+                <p>Video Editor</p>
+                <h1>Hi, I'm <span> Vedansh </span> <br> From EditLabz Organization</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/pic.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey there! I'm Vedansh, a seasoned video editor from India with over 3 years of experience. Proficient in Adobe Premiere Pro, After Effects, and Final Cut Pro, I specialize in everything from funny gaming videos and YouTube highlights to wedding films and captivating montages. <br>
+
+                        Living in the vibrant landscape of India, my work is infused with the richness of diverse cultures. Let's collaborate and turn your video ideas into captivating visual stories. Welcome to my creative space!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Video Editing</span><br>Visual storyteller shaping narratives through dynamic and impactful video editing</li>
+                                <li><span>Graphic Designing</span><br>Innovative graphic designer crafting visual identities with creativity and precision.</li>
+                                <li><span>Web Development</span><br>Passionate web developer turning concepts into seamless, user-centric online experiences</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022-2023</span><br>Google</li>
+                                <li><span>2022-2023</span><br>Microsoft</li>
+                                <li><span>2022-2023</span><br>Amazon</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2025</span><br>Pursuing BCA from Indraprastha University Delhi</li>
+                                <li><span>2022</span><br>Passed 12th Class from CBSE Board with 91%</li>
+                                <li><span>2020</span><br>Passed 10th Class from CBSE Board with 96%</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------services----------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Revitalize your online presence with our expert Web Design service. We create captivating, user-friendly websites that leave a lasting impact.</p>
+                    <a href="new/1.html">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video Editing</h2>
+                    <p>Transform your videos with our expert Video Editing service. From sleek cuts to captivating effects, we bring your vision to life.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphic Designing</h2>
+                    <p>Ignite your brand visuals with our Graphic Design service. We craft eye-catching designs that resonate, leaving a memorable impression on your audience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------portfolio----------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work.jpg">
+                    <div class="layer">
+                        <h3>Funny Gaming Video</h3>
+                        <p>This website helps you to showcase the past works and projects you did.</p>
+                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work.jpg">
+                    <div class="layer">
+                        <h3>Youtube Shorts/Instagram Reels</h3>
+                        <p>Made a music app just like spotify to showcase my css abilities</p>
+                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work.jpg">
+                    <div class="layer">
+                        <h3>Youtube Cashcow Videos</h3>
+                        <p>A clone to showcase my css abilities and movies all in one frame.</p>
+                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -------------------contact------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>vedansh302@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9999190272</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/vedansshhhhh/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="file/Vedansh Resume.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" >Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; Vedansh. Made with <i class="fa-solid fa-heart"></i> </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    
+    
+    </script>
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzC-YB0rKjh3PPsvl38kDhov3SD0oCOJKxsRS1pJkL-79itp9PmnjOfLQdhxx00zldw4A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully &#10004;"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
